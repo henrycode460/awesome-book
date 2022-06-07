@@ -26,7 +26,7 @@ body {
 }
 
 .nav-link:hover {
-color: rgb(68, 124, 22);
+  color: rgb(68, 124, 22);
 }
 
 .nav-list {
@@ -98,10 +98,9 @@ color: rgb(68, 124, 22);
 }
 
 .addBtn:hover {
- color: rgb(204, 204, 87) ;
- background-color: #333;
+  color: rgb(204, 204, 87);
+  background-color: #333;
 }
-
 
 .contact-sec {
   text-align: center;
@@ -122,7 +121,6 @@ input {
   height: 27px;
 }
 
-
 #form-div {
   margin-top: 102px;
   visibility: hidden;
@@ -136,7 +134,6 @@ input {
 
 .footer-sec {
   margin-top: 12%;
-
 }
 
 .contact-info {
