@@ -1,19 +1,26 @@
+body {
+  background-color: rgb(204, 204, 87);
+}
+
 .heading-sec {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  border: 2px double blue;
 }
 
 #listviewMain {
   position: absolute;
   margin-left: 430px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .nav-link {
   text-decoration: none;
   color: black;
+  font-size: 21px;
+  text-transform: uppercase;
 }
 
 .nav-list {
@@ -52,7 +59,11 @@
   justify-content: space-between;
   border: 5px solid #fff;
   height: 30px;
-  background-color: rgb(212, 212, 245);
+  background-color: rgb(116, 116, 233);
+}
+
+.logo {
+  font-size: 24px;
 }
 
 .book-list-style {
@@ -102,6 +113,7 @@ input {
 
 .copy-right-detail {
   margin-left: 245px;
+  font-size: 20px;
 }
 
 .footer-sec {
