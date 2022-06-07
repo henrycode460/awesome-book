@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Cloud Computing Global Summit
+# Awesome Book Store
 
 > This project is intented for storing information of books in the Awesome Book store by allowing users to add books they want to read to a list and remove books they have read from the list. 
 

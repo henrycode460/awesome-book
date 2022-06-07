@@ -1,5 +1,7 @@
 body {
   background-color: rgb(204, 204, 87);
+  overflow-y: hidden;
+  height: 100vh;
 }
 
 .heading-sec {
@@ -13,7 +15,7 @@ body {
 #listviewMain {
   position: absolute;
   margin-left: 430px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .nav-link {
@@ -21,6 +23,10 @@ body {
   color: black;
   font-size: 21px;
   text-transform: uppercase;
+}
+
+.nav-link:hover {
+color: rgb(68, 124, 22);
 }
 
 .nav-list {
@@ -84,9 +90,17 @@ body {
 }
 
 .addBtn {
-  margin-left: 165px;
-  width: 58px;
+  margin-left: 1px;
+  width: 130px;
+  height: 42px;
+  cursor: pointer;
 }
+
+.addBtn:hover {
+ color: rgb(204, 204, 87) ;
+ background-color: #333;
+}
+
 
 .contact-sec {
   text-align: center;
@@ -103,8 +117,10 @@ body {
 }
 
 input {
-  width: 228px;
+  width: 279px;
+  height: 27px;
 }
+
 
 #form-div {
   margin-top: 102px;
@@ -114,10 +130,12 @@ input {
 .copy-right-detail {
   margin-left: 245px;
   font-size: 20px;
+  text-align: center;
 }
 
 .footer-sec {
-  margin-top: 17%;
+  margin-top: 12%;
+
 }
 
 .contact-info {
